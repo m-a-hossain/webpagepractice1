@@ -1,0 +1,48 @@
+body{
+    
+    margin: 0;
+    background-color: antiquewhite;
+ 
+}
+section{
+    height: 500px;
+}
+h1{font-size: 50px;}
+#copyright{text-align: center;}
+
+.ecOne{
+    background-image: url('top-banner.png');
+  background-repeat: no-repeat;
+}
+.upper{
+  
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  border: 1px solid;
+  
+}
+.lower{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;  
+  border: 1px solid;
+}
+.upper img{width:100%;}
+.lower img{width: 80%;}
+.btn{
+  padding:10px;
+  background-color: rgb(44, 22, 165);
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.box{
+    width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;  
+  border: 1px solid; 
+}
