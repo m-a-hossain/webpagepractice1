@@ -1,11 +1,25 @@
 body{
     
     margin: 0;
-    background-color: antiquewhite;
+    background-color: rgb(243, 243, 242);
  
 }
+#cap1{
+  color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+}
+#cap2{
+  color: rgb(209, 26, 81);
+  font-family: 'Roboto', sans-serif;
+}
+
 section{
     height: 500px;
+}
+.experience{
+  background-image: url('exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
 }
 h1{font-size: 50px;}
 #copyright{text-align: center;}
@@ -14,13 +28,18 @@ h1{font-size: 50px;}
     background-image: url('top-banner.png');
   background-repeat: no-repeat;
 }
+.ecTwo{
+  background-image: url('dream-bg.png');
+  background-repeat: no-repeat;
+  background-position:right bottom;
+}
 .upper{
   
   width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
-  border: 1px solid;
+ 
   
 }
 .lower{
@@ -28,7 +47,7 @@ h1{font-size: 50px;}
   float: left;
   margin-left: 5%;
   padding-left: 2%;  
-  border: 1px solid;
+ 
 }
 .upper img{width:100%;}
 .lower img{width: 80%;}
@@ -40,15 +59,28 @@ h1{font-size: 50px;}
   text-decoration: none;
 }
 .box{
-  width: 40%;
+  width: 35%;
+  height: 50%;
   padding: 40px;
   float: left;
+  border-radius: 10px;
   margin-left: 5%;
   padding-left: 2%;  
- box-shadow: 10px 10px 40px;
+ box-shadow: 10px 10px 40px gray;
 }
 #ank{padding: 10px;color: antiquewhite;text-decoration: none;
   font-size: 20px;
   background-image: linear-gradient(180deg, blue, red);
+}
+.leftBox{
+  border-left: 7px solid; 
+  border-image: linear-gradient(180deg, rgb(212, 141, 128), red); 
+  border-image-slice: 1;
+  
+}
+.rightBox{
+  border-left: 7px solid; 
+  border-image: linear-gradient(180deg, rgb(97, 88, 226), rgb(30, 15, 99)); 
+  border-image-slice: 1;
 }
 footer p{text-align: center;}
