@@ -16,7 +16,7 @@ body{
 section{
     height: 500px;
 }
-.experience{
+.experience{height: 500px;
   background-image: url('exp-bg.png');
   background-repeat: no-repeat;
   background-position: left;
